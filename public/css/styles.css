@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto';
+    background-color: #ebebeb;
+}
+
+h3 {
+    font-size:24px;
+}
+
+/* Esto es el header */
+
+header{
+    background-color: yellow;
+    padding: 20px;
+}
+
+header div.logo{
+    width: 250px;
+}
+
+header .form{
+    display: flex
+}
+
+header .form .buscar{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+
+header .form .icon-search{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 23px;
+    height: 25px;
+}
+
+header .p{
+    text-align: center;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+.burger-menu i{
+    background-color: #1259c3;
+    color: #fff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px; 
+    text-align: center;
+    font-size: 1em;
+    margin:auto
+}
+
+.main-navbar{
+    display: none;
+}
+
+.main-navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar a{
+    text-decoration: none;
+    color: #222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+/* Esto es el main */
+
+main{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.h4{
+    height: 100%;
+    width: 100%;
+}
+
+main section h3{
+    margin: 20px 0px 0px;
+}
+
+.ultima-visita{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ofertas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productos{
+    width: 100%;
+    height: 50%;
+    margin-top: 10px;
+}
+
+main section article{
+    background-color: #fff;    
+    margin: 10x 0px;
+}
+
+.articulos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+
+.Car{
+    color: #39b54a;
+}
+
+.Car{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    transition-duration: 1s;
+}
+
+.Car:hover {
+    transform: rotate(-90deg)
+}
+
+.precio{
+    font-size: 18px;
+    width: 30%;
+}
+
+.descuento{
+    width: 70%;
+    color: #39b54a;
+}
+
+.descripcion{
+    display: none;
+    margin-top: 20px;
+    color: #666;
+}
+
+.articulo1{
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+}
+
+.img{
+    width: 100%;
+}
+
+section.banner img{
+    width: 100%;
+    height: 100%;
+}
+/* Esto es el footer */
+
+footer{
+    background-color: #ebebeb;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.credit-card{
+    font-size: 2em;
+    font-weight: 10px;
+    color: #1259c3;
+}
+
+.gift{
+    font-size: 2em;
+    font-weight: 10px;
+    color: #1259c3;
+}
+
+.segured{
+    font-size: 2em;
+    font-weight: 10px;
+    color: #1259c3;
+}
+
+footer h4{
+    margin-top: 10px;
+}
+
+footer p{
+    margin: 5px;  
+}
+
+@media (min-width: 361px) {
+    .descripcion{
+        display: block;
+    }
+
+    .articulo1{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 40%;
+        margin-right: 12px;
+    }
+}
+
+@media (min-width: 769px) {
+
+    main{
+        text-align: center;
+    }
+    .articulo1{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 30%;
+        display: block;
+        margin-right: 12px;
+    }
+
+    .productos{
+        display: flex;
+    }
+
+    .img{
+        width:50%
+    }
+
+    .header-top{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .buscar{
+        display: block;
+        max-width: 100%;
+        font-size: 18px;
+        width: 300px;
+        height: 25px;
+    }
+
+    .header.p{
+        max-width: none;
+        font-size: 18px;
+    }
+
+    .burger-menu{
+        display: none;
+    }
+
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .main-navbar ul{
+        display: flex;
+    }
+
+    .main-navbar li{
+        margin: 0 5px;
+    }
+}

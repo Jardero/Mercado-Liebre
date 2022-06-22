@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto';
+    background-color: #efefee;
+    text-align: center;
+}
+
+.header-top{
+    background-color: yellow;
+    padding: 150px;
+}
+
+.logo{
+    width:200px;
+    display: inline-block;
+}
+
+h1{
+    margin-top: -100px
+}
+
+.contenedor{
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+    z-index: 10;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: #efefee;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+#NyA{
+    margin-top: 25px;
+    display: flex;
+}
+
+.pais{
+    margin-top: 25px;
+}
+
+.btn-register{
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.intereses{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.edad{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*Footer*/
+footer{
+    background-color: #ebebeb;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.credit-card{
+    font-size: 2em;
+    font-weight: 10px;
+    color: #1259c3;
+}
+
+.gift{
+    font-size: 2em;
+    font-weight: 10px;
+    color: #1259c3;
+}
+
+.segured{
+    font-size: 2em;
+    font-weight: 10px;
+    color: #1259c3;
+}
+
+footer h4{
+    margin-top: 10px;
+}
+
+footer p{
+    margin: 5px;  
+}

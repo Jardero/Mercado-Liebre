@@ -1,0 +1,87 @@
+body{
+    font-family: 'Roboto';
+}
+
+.header-top{
+    background-color: yellow;
+    padding: 150px;
+    text-align: center;
+}
+
+.logo{
+    width:200px;
+    display: inline-block;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+
+main{
+    text-align: center;
+}
+
+h1{
+    margin-top: -150px;
+}
+
+.login{
+    box-sizing: border-box;
+    border-radius: 3%;
+    display: inline-block;
+    background-color: #efefef;
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    box-sizing: border-box;
+}
+
+.btn-login{
+    margin-top: 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+    transition-duration:1s;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+ main .password-login{
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.btn-login:hover{
+    background-color: #0022AA;
+    color: white;
+}
+
+/*Footer*/
+footer{
+    background-color: #ebebeb;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.credit-card{
+    font-size: 2em;
+    font-weight: 10px;
+    color: #1259c3;
+}
+
+.gift{
+    font-size: 2em;
+    font-weight: 10px;
+    color: #1259c3;
+}
+
+.segured{
+    font-size: 2em;
+    font-weight: 10px;
+    color: #1259c3;
+}
+
+footer h4{
+    margin-top: 10px;
+}
+
+footer p{
+    margin: 5px;  
+}

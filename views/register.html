@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@1,300;1,400&display=swap');
+        </style> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+     rel="stylesheet" />
+    <link rel="stylesheet" href="/public/css/register.css">
+    <title>register</title>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="logo"> 
+                <img src="/public/images/logo-mercado-liebre.svg" alt="Logo de MercadoLiebre">
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>¡Registrate gratis!</h1>
+        <div class="contenedor">
+            <div class="register">
+                <form action="#" method="post">
+                    <div id="NyA">
+                        <label>Nombre y Apellido</label>
+                        <input type="text" required>
+                    </div>
+                    <div id="NyA">
+                        <label>email</label>
+                        <input type="email" required>
+                    </div>
+                    <div id="NyA">
+                        <label>Contraseña</label>
+                        <input type="password" required>
+                    </div>
+                    <div class="pais">
+                        <label>Pais de origen</label>
+                        <select name="pais-de-origen">
+                        <option value=" "></option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Aguasturbias">Aguasturbias</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Noxus">Noxus</option>
+                        <option value="Ecuador">Ecuador</option>   
+                        <option value="Venezuela">Venezuela</option>
+                    </select required>
+                    <div class="edad">
+                        <label>
+                            Edad
+                            <input type="date">
+                        </label>
+                    </div>
+                    </div>
+                    <div calss="intereses">
+                        <h4>Tus intereses</h4>
+                        <div class="intereses1">
+                        <div class="intereses">
+                            <label>
+                                <input type="checkbox" name="Electro" value="Electro">
+                                Electro
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Moda" value="Moda">
+                                Moda
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Hogar" value="Hogar">
+                                Hogar
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Jugueteria" value="Jugueteria">
+                                Jugueteria
+                            </label>
+                            <label>
+                                <input type="checkbox" name="Vida sana" value="Vida sana">
+                                Vida sana
+                            </label>
+                        </div>
+                        </div>
+                    </div>
+                    <div id="NyA">
+                        <h4>Acepto terminos y servicios <input type="checkbox" name="terminos" values="acepto" required></h4>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn-register">Registrar
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <i class="fa-solid fa-credit-card credit-card"></i>
+        <h3>Pagá con tarjeta o en efectivo</h3>
+        <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+        puntos de pago. ¡Y siempre es seguro!</p>
+        <i class="fa-solid fa-gift gift"></i>
+        <h3>Envío gratis desde $ 2.500</h3>
+        <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+        productos. Es un beneficio de Mercado Puntos.</p>
+        <i class="fa-solid fa-user-shield segured"></i>
+        <h3>Seguridad, de principio a fin</h3>
+        <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+        porque estás siempre protegid@.s</p>
+        <h4>Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
+    </footer>
+</body>
+</html>
