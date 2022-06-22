@@ -289,4 +289,8 @@ footer p{
     .main-navbar li{
         margin: 0 5px;
     }
+
+    .Car:hover{
+        transform: rotate(-90deg);
+    }
 }
